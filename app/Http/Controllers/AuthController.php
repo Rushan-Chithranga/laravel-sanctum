@@ -21,7 +21,8 @@ class AuthController extends Controller
 
         return [
             'user' => $user,
-            'token' => $token
+            'token' => $token,
+            'messages' => 'User created successfully'
         ];
 
     }
@@ -41,7 +42,8 @@ class AuthController extends Controller
 
         return [
             'user' => $user,
-            'token' => $token
+            'token' => $token,
+            'messages' => 'User Logged successfully'
         ];
 
     }
